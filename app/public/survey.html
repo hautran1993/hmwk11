@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1>Survey Questions</h1>
+      <hr>
+
+      <div>
+          <a id="home-page" href="/"><button type="button" class="btn btn-danger btn-lg "><span class="glyphicon glyphicon-home"></span> Home</button></a>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <h2><strong>About You</strong></h2>
+            <hr>
+
+            <h4>Name (Required)</h4>
+								<input type="text" id="friends_name" class="form-control" style="width: 160px;" required>
+								<h4>Link to Photo Image (Required)</h4>
+								<input type="file" id="friends_photo" required>
+								<hr>
+
+          <div class="form-group"=>
+                <h4>Question 1: In a discussion, truth should be more important than people’s sensitivities. </h4>
+                <select id="question1" class="form-control" style="width: 160px;">
+                    <option value="1">1 (Strongly Disagree)</option >
+                    <option value="2">2</option >
+                    <option value="3">3</option >
+                    <option value="4">4</option >
+                    <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+
+          <div class="form-group"=>
+                <h4>Question 2: Necessary lies is a must, to keep peace</h4>
+                <select id="question2" class="form-control" style="width: 160px;">
+                  <option value="1">1 (Strongly Disagree)</option >
+                  <option value="2">2</option >
+                  <option value="3">3</option >
+                  <option value="4">4</option >
+                  <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+
+          <div class="form-group"=>
+                <h4>Question 3: A friend waking you up at 4am for an emergency is okay.</h4>
+                <select id="question3" class="form-control" style="width: 160px;">
+                  <option value="1">1 (Strongly Disagree)</option >
+                  <option value="2">2</option >
+                  <option value="3">3</option >
+                  <option value="4">4</option >
+                  <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+
+          <div class="form-group"=>
+                <h4>Question 4: Do you like scary movies?</h4>
+                <select id="question4" class="form-control" style="width: 160px;">
+                  <option value="1">1 (Strongly Disagree)</option >
+                  <option value="2">2</option >
+                  <option value="3">3</option >
+                  <option value="4">4</option >
+                  <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+
+          <div class="form-group"=>
+                <h4>Question 5: Anime is terrible, only children watches it.</h4>
+                <select id="question5" class="form-control" style="width: 160px;">
+                  <option value="1">1 (Strongly Disagree)</option >
+                  <option value="2">2</option >
+                  <option value="3">3</option >
+                  <option value="4">4</option >
+                  <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+
+          <div class="form-group"=>
+                <h4>Question 6: Traveling is the best way to learn about other cultures.</h4>
+                <select id="question6" class="form-control" style="width: 160px;">
+                  <span>select</span>
+                  <option value="1">1 (Strongly Disagree)</option >
+                  <option value="2">2</option >
+                  <option value="3">3</option >
+                  <option value="4">4</option >
+                  <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+
+          <div class="form-group"=>
+                <h4>Question 7: Living an amazing life for a short time, is better than living a long miserable life.</h4>
+                <select id="question7" class="form-control" style="width: 160px;">
+                  <option value="1">1 (Strongly Disagree)</option >
+                  <option value="2">2</option >
+                  <option value="3">3</option >
+                  <option value="4">4</option >
+                  <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+
+          <div class="form-group"=>
+                <h4>Question 8: Everyone meets for a reason.</h4>
+                <select id="question8" class="form-control" style="width: 160px;">
+                  <option value="1">1 (Strongly Disagree)</option >
+                  <option value="2">2</option >
+                  <option value="3">3</option >
+                  <option value="4">4</option >
+                  <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+
+          <div class="form-group"=>
+                <h4>Question 9: Happiness is more important than earthly possesions.</h4>
+                <select id="question9" class="form-control" style="width: 160px;">
+                  <option value="1">1 (Strongly Disagree)</option >
+                  <option value="2">2</option >
+                  <option value="3">3</option >
+                  <option value="4">4</option >
+                  <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+
+          <div class="form-group"=>
+                <h4>Question 10: Everyone dies, but not everyone lives.</h4>
+                <select id="question10" class="form-control" style="width: 160px;">
+                  <option value="1">1 (Strongly Disagree)</option >
+                  <option value="2">2</option >
+                  <option value="3">3</option >
+                  <option value="4">4</option >
+                  <option value="5">5 (Strongly Agree)</option >
+                </select>
+          </div>
+<!--submit button  -->
+
+          <button class="btn btn-primary btn-lg submit" type="submit" value="Submit" id="submit" data-target="#mymodal"><span class="glyphicon glyphicon-ok"></span> Submit</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <footer class="container">
+    <a href="/api/friends">API Friends List</a> " | "
+    <a href="https://github.com/hautran1993/friend-finder">GitHub Repository</a>
+  </footer>
+
+
+  <script type="text/javascript">
+    $("#submit").on("click", function(event){
+      var name = $("#friends_name").val().trim();
+      var photo = $("#friends_photo").val().trim();
+      var question1 = $("#question1").val().trim();
+      // var question2 = $("#question2").val().trim();
+      // var question3 = $("#question3").val().trim();
+      // var question4 = $("#question4").val().trim();
+      // var question5 = $("#question5").val().trim();
+      // var question6 = $("#question6").val().trim();
+      // var question7 = $("#question7").val().trim();
+      // var question8 = $("#question8").val().trim();
+      // var question9 = $("#question9").val().trim();
+      // var question10 = $("#question10").val().trim();
+      var answers = [];
+      for(var i = 1; i <= 10; i++) {
+        $("#question" + i).val().trim();
+        answers.push($("#question" + i).val().trim());
+        console.log(answers);
+      }
+      var userInfo = {
+        name: name,
+        photo: photo,
+        scores: answers
+      }
+      console.log(userInfo);
+
+      $.post("/api/friends", userInfo, function(data){
+        alert("goodjob");
+      });
+    });
+
+
+  </script>
+
+</body>
+</html>
